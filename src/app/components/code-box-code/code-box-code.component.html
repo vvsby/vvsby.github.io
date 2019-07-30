@@ -1,0 +1,11 @@
+<div>
+    <div class="headerBox">
+        <p>Result</p>
+        <i class="material-icons toolbar" (click)="copyTextToClipboard()" matTooltip="Copy result">
+            file_copy
+        </i>
+    </div>
+    <div class="code resultBox" highlightChildren>
+        <code #code [highlight]="text" [languages]="['typescript']" id="code"></code>
+    </div>
+</div>

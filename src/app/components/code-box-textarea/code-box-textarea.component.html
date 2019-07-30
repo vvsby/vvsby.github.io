@@ -1,0 +1,19 @@
+<div>
+    <div class="headerBox">
+        <p>JSON for convert</p>
+        <div style="width: 100px; text-align: right;">
+            <i class="material-icons toolbar" (click)="format()" matTooltip="Format">
+                format_indent_increase
+            </i>
+            <i class="material-icons toolbar" (click)="removeFormat()" matTooltip="Compact json data">
+                format_indent_decrease
+            </i>
+        </div>
+    </div>
+    <div class="code">
+        <label for="textareaCode">
+            <textarea [(ngModel)]="text" rows="40" cols="80" (change)="update()" id="textareaCode"
+                aria-label="Input text"></textarea>
+        </label>
+    </div>
+</div>
