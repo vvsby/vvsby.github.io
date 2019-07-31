@@ -85,6 +85,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+@angular/material/button
+
 @angular/material/checkbox
 
 @angular/material/core
@@ -92,6 +94,8 @@ THE SOFTWARE.
 @angular/material/form-field
 
 @angular/material/select
+
+@angular/material/snack-bar
 
 @angular/material/tooltip
 
