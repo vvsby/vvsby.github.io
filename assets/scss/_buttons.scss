@@ -1,0 +1,75 @@
+.button.primary {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+  padding: 17px;
+  border: 2px solid #fff;
+  border-radius: 14px;
+  background-color: transparent;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  &:hover {
+    background-color: #fff;
+    color: $royal-blue !important;
+  }
+  &.icon {
+    padding-left: 60px;
+    background-position: 23px 50%;
+    background-size: 24px;
+  }
+
+  &.new-user {
+    background-image: url(#{$img-path}/signup-icon.png);
+    background-repeat: no-repeat;
+    &:hover {
+      background-image: url(#{$img-path}/signup-icon-hover.png);
+    }
+  }
+
+  &.login {
+    background-image: url(#{$img-path}/login-icon.png);
+    background-repeat: no-repeat;
+    &:hover {
+      background-image: url(#{$img-path}/login-icon-hover.png);
+    }
+  }
+
+  &.individual {
+    background-image: url(#{$img-path}/individual-icon-white.png);
+    background-repeat: no-repeat;
+    &:hover {
+      background-image: url(#{$img-path}/individual-icon-blue.png);
+    }
+  }
+
+  &.lawfirm {
+    background-image: url(#{$img-path}/lawfirm-icon-white.png);
+    background-repeat: no-repeat;
+    &:hover {
+      background-image: url(#{$img-path}/lawfirm-icon-blue.png);
+    }
+  }
+
+  &.company {
+    background-image: url(#{$img-path}/company-icon-white.png);
+    background-repeat: no-repeat;
+    &:hover {
+      background-image: url(#{$img-path}/company-icon-blue.png);
+    }
+  }
+
+  span {
+    position: absolute;
+    right: 80px;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    background: transparent;
+    color: #fff !important;
+  }
+}
