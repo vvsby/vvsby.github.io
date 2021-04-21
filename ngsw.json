@@ -1,20 +1,25 @@
 {
   "configVersion": 1,
-  "timestamp": 1573619671426,
+  "timestamp": 1618997090860,
   "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
+        "/5.8bc04d1689a299753617.js",
         "/favicon.ico",
         "/index.html",
-        "/main.8f41aed63e612af3c8b5.js",
-        "/polyfills-es5.ad0cd9ec34ac503f8b75.js",
-        "/polyfills.5787761dc276e89f865f.js",
-        "/runtime.465c2333d355155ec5f3.js",
-        "/styles.edd08d2f797b5302b4b2.css"
+        "/main.29d675c688144ac5970a.js",
+        "/manifest.webmanifest",
+        "/polyfills-es5.2b1d5d6d69c8bc4d8dbf.js",
+        "/polyfills.78ce47dc6d5110103321.js",
+        "/runtime.44fdd1ab088b73fbf6d3.js",
+        "/styles.a80981369f431fa740fb.css"
       ],
       "patterns": []
     },
@@ -22,6 +27,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "/assets/deeppurple-amber.css",
         "/assets/icons/icon-128x128.png",
@@ -39,6 +47,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/5.8bc04d1689a299753617.js": "788ffaf341a8207c8102f16424e99e35148d11b2",
     "/assets/deeppurple-amber.css": "baa8506f86e4f8317487b022332219cf871c48a9",
     "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -50,12 +59,13 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/vs2015.css": "13d4f77ccdc9f7dd09abf2a23c2badb4362e5b0f",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "f782d4bab02e3a4d06c97bf9d7bb643ba37fd108",
-    "/main.8f41aed63e612af3c8b5.js": "23c19c2a821302b8ddd54287cb179feb9856c847",
-    "/polyfills-es5.ad0cd9ec34ac503f8b75.js": "7b6872891aaf8fcb6987dfd987900f0be4f1a956",
-    "/polyfills.5787761dc276e89f865f.js": "19c397389a232f2faf5c3a4f96e0140e47d86e29",
-    "/runtime.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
-    "/styles.edd08d2f797b5302b4b2.css": "27fe10bae47c67f8257198959659b8fcfd5b1ed2"
+    "/index.html": "ba4116d8a838406e6481b0ba1cb0036c3ee42d63",
+    "/main.29d675c688144ac5970a.js": "27ee80fe06315b91b783488dfac1a62570ca606e",
+    "/manifest.webmanifest": "787d451a51fb287b5e0c45d2a944363ad965e110",
+    "/polyfills-es5.2b1d5d6d69c8bc4d8dbf.js": "314b92563f5fb9d4d53ee0b0530bffaaa7102356",
+    "/polyfills.78ce47dc6d5110103321.js": "7d612ac698860d06374188d6ccb5c8cdaf2fa18a",
+    "/runtime.44fdd1ab088b73fbf6d3.js": "82962cc82b995f73e30af674429e3382a338300d",
+    "/styles.a80981369f431fa740fb.css": "c4e5ca379180d27be20ea1af82148f82de8f231a"
   },
   "navigationUrls": [
     {
